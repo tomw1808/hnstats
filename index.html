@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div id="newscombinator-stats"></div>
+<div id="other-stats"></div>
+<script src="hnstats.js"></script>
+<script type="text/javascript">
+    !function (containerElement, containerID, targetUrl) {
+        if (containerElement.getElementById(containerID)) {
+            var location = "" + targetUrl;
+            newscombinatorLoadComments(location,
+                    function (result) {
+                        var spanStats = getNewcombinatorSpanFromResults(result);
+                        containerElement.getElementById(containerID).appendChild(spanStats);
+                    }
+            );
+        }
+    }(
+            document, //target element containing the container with the...
+            'newscombinator-stats', //...target-id of the hn-stats (where the span will be written to)
+            "http://newscombinator.com"//document.location //the url to load the stats for
+    );
+    !function (containerElement, containerID, targetUrl) {
+        if (containerElement.getElementById(containerID)) {
+            var location = "" + targetUrl;
+            newscombinatorLoadComments(location,
+                    function (result) {
+                        var spanStats = getNewcombinatorSpanFromResults(result);
+                        containerElement.getElementById(containerID).appendChild(spanStats);
+                    }
+            );
+        }
+    }(
+            document, //target element containing the container with the...
+            'other-stats', //...target-id of the hn-stats (where the span will be written to)
+            "https://www.linkedin.com/pulse/influencer-marketing-do-landon-ledford?trk=prof-post"//document.location //the url to load the stats for
+    );
+</script>
+</body>
+
+</html>
