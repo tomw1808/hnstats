@@ -1,13 +1,13 @@
 # HN-Stats
 
-> Adding stats manually is too oldschool, 
+> Adding stats manually is pretty oldschool 
 
-[HN-Stats](http://www.newscombinator.com/hnstats)
+[HN-Stats Demo Page](http://www.newscombinator.com/hnstats)
 
 
 ## Introduction
 
-Ever made a little side-project and posted it on Hacker-News or Reddit or somewhere else? Maintaining stats and links to the HN discussions manually is a pain in the ... back.
+Ever made a little side-project and posted it on Hacker-News, or Reddit, or somewhere else? Maintaining stats and links to the HN discussions manually is a pain, isn't it? 
 
 Wouldn't it be great if there was a little helper to automate this? HN-Stats is born.
 
@@ -42,15 +42,15 @@ And the following right before the body closing tag:
 </script>
 ```
 
-You should be fine.
+You should be fine. It's easier than watering your plants, isn't it?
 
 ## Limitations
 
-Newscombinator is constantly grabbing links from the sources mentioned below. It takes about 2-5 minutes from the first post on Hacker-News (and all the others) until the stats will appear. Also, currently only http-support, no https. So consider it for small projects, github pages, etc...
+Newscombinator is constantly grabbing links from the sources mentioned below - and updating stats as long as they are on the top or new sections. It takes about 2-5 minutes from the first post on Hacker-News (and all the others) until the stats will appear. Also, currently only http-support, no https. So consider it for small projects, github pages, etc... And its empty if there are no stats (yet), or it can't find anything. Feel free to fork, hack, improve, dismantle and iterate - agile if you want. The source is pretty self explanatory. 
 
 ## License
 
-Feel free to redistribute, modify and use the code for and in any projects. I will not take any responsibility or whatsoever for code/server and or information provided, and keep the right to change/modify/stop the underlying API at any time. You can find more in the provided LICENSE.txt. You can take it for granted, I will not pursue any copyright claims to the software, either modified or not. I personally think its good manner to get in touch with me before using the software for third party apps or anything else. 
+Feel free to redistribute, modify and use the code for and in any projects. I will not take any responsibility or whatsoever for code/server and or information provided, and keep the right to change/modify/stop the underlying API at any time. You can find more in the provided LICENSE. You can take it for granted, I will not pursue any copyright claims to the software, either modified or not. I personally think its good manner to get in touch with me before using the software for third party apps or anything else.
 
 ## Sources
 
